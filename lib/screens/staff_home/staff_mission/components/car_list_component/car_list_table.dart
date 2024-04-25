@@ -45,7 +45,7 @@ class _CarListTableState extends State<CarListTable> {
           ),
           FloatingActionButton(
             onPressed: addUser,
-            child: Text('+'),
+            child: const Text('+'),
           ),
         ],
       ),
@@ -96,7 +96,7 @@ class _CarListTableState extends State<CarListTable> {
         ),
         DataCell(
           Container(
-            constraints: BoxConstraints(maxWidth: 100),
+            constraints: const BoxConstraints(maxWidth: 100),
             child: Text(
               carOwner.carBrand.toString(),
               maxLines: 2,
